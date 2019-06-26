@@ -1,0 +1,43 @@
+{
+  "name": "@vevcom/design-vue",
+  "version": "1.0.0",
+  "description": "Omegaweb design system and vue component library",
+  "main": "src/index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "dev": "parcel demo/index.html",
+    "build": "parcel build demo/index.html --public-url ./ --no-source-maps",
+    "lint": "prettier --write \"{src,demo}/**/*.{vue,js}\"",
+    "test": "prettier --check \"{src,demo}/**/*.{vue,js}\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vevcom/design.git"
+  },
+  "keywords": [
+    "vevcom",
+    "omega",
+    "designsystem",
+    "vue"
+  ],
+  "author": "Trym Sneltvedt",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vevcom/design/issues"
+  },
+  "homepage": "https://github.com/vevcom/design#readme",
+  "devDependencies": {
+    "@vue/component-compiler-utils": "^3.0.0",
+    "parcel-bundler": "^1.12.3",
+    "parcel-plugin-clean-dist": "0.0.6",
+    "prettier": "1.18.2",
+    "sass": "^1.21.0",
+    "vue": "^2.6.10",
+    "vue-template-compiler": "^2.6.10"
+  },
+  "dependencies": {
+    "vue-hot-reload-api": "^2.3.3"
+  }
+}
