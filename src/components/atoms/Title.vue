@@ -1,5 +1,5 @@
 <template>
-  <h2 :class=style><slot></slot></h2>
+  <h2 :class="style"><slot></slot></h2>
 </template>
 
 <script>
@@ -13,7 +13,7 @@ export default {
       return "ow-title " + this.size;
     }
   }
-}
+};
 </script>
 
 <style lang="scss">

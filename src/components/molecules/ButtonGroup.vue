@@ -7,7 +7,7 @@
 @import "../../scss/devices";
 
 .ow-buttongroup {
-   width: 100%;
+  width: 100%;
   margin: 2em 0 4em;
   display: flex;
   justify-content: flex-end;
