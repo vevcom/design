@@ -1,5 +1,6 @@
 <template>
   <Wrapper>
+    <Fig :src=ohma></Fig>
     <Title size="xlarge">Extra Large Title</Title>
     <Title size="large">Large Title</Title>
     <Title size="medium">Medium Title</Title>
@@ -26,3 +27,14 @@
     </Buttons>
   </Wrapper>
 </template>
+
+<script>
+import ohma from "./assets/ohma.jpg";
+
+export default {
+  data: () => ({
+    ohma
+  })
+}
+</script>
+
