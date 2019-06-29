@@ -1,10 +1,24 @@
-$font-size-base: 16px;
+// Generic sizes
+$size-base: 8px;
+$size-sm: $size-base / 2;
+$size-md: $size-base * 2;
+$size-lg: $size-base * 4;
+$size-xl: $size-base * 8;
+$size-2xl: $size-base * 16;
 
-$font-size-sm: 0.8em;
-$font-size-md: 1.25em;
-$font-size-lg: 1.563em;
-$font-size-xl: 1.953em;
+// Base font size
+$font-size-base: $size-base * 2;
 
+// Font scale
+$font-scale: 1.41;
+
+// Font sizes
+$font-size-sm: 1em / $font-scale;
+$font-size-md: 1em * $font-scale;
+$font-size-lg: $font-size-md * $font-scale;
+$font-size-xl: $font-size-lg * $font-scale;
+
+// Colors
 $color-brand: #ffd600;
 $color-dark: #000;
 $color-light: #fff;

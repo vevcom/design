@@ -1,13 +1,27 @@
 <template>
-  <h2 class="ow-title xlarge"><slot></slot></h2>
+  <h2 :class=style><slot></slot></h2>
 </template>
+
+<script>
+export default {
+  props: {
+    size: String,
+    default: ""
+  },
+  computed: {
+    style() {
+      return "ow-title " + this.size;
+    }
+  }
+}
+</script>
 
 <style lang="scss">
 @import "../../scss/variables";
 
 .ow-title {
   font-weight: bold;
-  margin-bottom: 1em;
+  margin-bottom: $size-md;
 
   &.medium {
     font-size: $font-size-md;

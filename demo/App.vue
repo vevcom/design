@@ -1,6 +1,9 @@
 <template>
   <Wrapper>
-    <Title>Vevcom Design</Title>
+    <Title size="xlarge">Extra Large Title</Title>
+    <Title size="large">Large Title</Title>
+    <Title size="medium">Medium Title</Title>
+    <Title>Small Title</Title>
     <Paragraph>
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin finibus ex
       quis consectetur feugiat. Aliquam sed elit quam. Nulla enim nisl, varius
