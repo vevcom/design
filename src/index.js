@@ -5,7 +5,7 @@ import Paragraph from "./components/atoms/Paragraph";
 import Title from "./components/atoms/Title";
 import Wrapper from "./components/atoms/Wrapper";
 
-import Buttons from "./components/molecules/Buttons";
+import ButtonGroup from "./components/molecules/ButtonGroup";
 
 export default {
   install(Vue) {
@@ -13,8 +13,8 @@ export default {
     Vue.component("Paragraph", Paragraph);
     Vue.component("Title", Title);
     Vue.component("Wrapper", Wrapper);
-    Vue.component("Buttons", Buttons);
+    Vue.component("Buttons", ButtonGroup);
   }
 };
 
-export { Button, Paragraph, Title, Wrapper, Buttons };
+export { Button, Paragraph, Title, Wrapper, ButtonGroup };
