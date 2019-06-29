@@ -1,6 +1,6 @@
 import "./scss/main.scss";
 
-import filters from './filters';
+import filters from "./filters";
 
 import Button from "./components/atoms/Button";
 import Fig from "./components/atoms/Fig";

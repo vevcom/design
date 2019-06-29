@@ -1,7 +1,9 @@
 <template>
   <table class="ow-table">
     <tr>
-      <td v-for="label in Object.keys(data[0])" :key="label">{{ label | capitalize }}</td>
+      <td v-for="label in Object.keys(data[0])" :key="label">
+        {{ label | capitalize }}
+      </td>
     </tr>
     <tr v-for="row in this.data" :key="row">
       <td v-for="cell in Object.values(row)" :key="cell">{{ cell }}</td>
@@ -17,7 +19,7 @@ export default {
       required: true
     }
   }
-}
+};
 </script>
 
 <style lang="scss">
@@ -37,4 +39,3 @@ export default {
   }
 }
 </style>
-
