@@ -21,7 +21,7 @@ export default {
     Vue.component("Table", Table);
     Vue.component("Title", Title);
     Vue.component("Wrapper", Wrapper);
-    Vue.component("Buttons", ButtonGroup);
+    Vue.component("ButtonGroup", ButtonGroup);
   }
 };
 

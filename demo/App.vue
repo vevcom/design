@@ -21,11 +21,11 @@
       Pellentesque imperdiet pulvinar velit congue pretium.
     </Paragraph>
     <Table :data="tableData"></Table>
-    <Buttons>
+    <ButtonGroup>
       <Button primary>Very good</Button>
       <Button>Okay</Button>
       <Button danger>Not good</Button>
-    </Buttons>
+    </ButtonGroup>
   </Wrapper>
 </template>
 
