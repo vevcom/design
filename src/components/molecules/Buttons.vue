@@ -3,8 +3,11 @@
 </template>
 
 <style lang="scss">
+@import "../../scss/variables";
+@import "../../scss/devices";
+
 .ow-buttongroup {
-  width: 100%;
+   width: 100%;
   margin: 2em 0 4em;
   display: flex;
   justify-content: flex-end;
@@ -14,7 +17,15 @@
     margin-right: 0.75em;
   }
   & > *:last-child {
-    margin-right: 0;
+    margin: 0;
+  }
+
+  @include mobile {
+    flex-direction: column;
+    & > * {
+      margin-right: 0;
+      margin-bottom: $size-base;
+    }
   }
 }
 </style>
