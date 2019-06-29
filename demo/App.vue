@@ -20,6 +20,7 @@
       consectetur adipiscing elit. Mauris eu velit id mauris fringilla egestas.
       Pellentesque imperdiet pulvinar velit congue pretium.
     </Paragraph>
+    <Table :data="tableData"></Table>
     <Buttons>
       <Button primary>Very good</Button>
       <Button>Okay</Button>
@@ -33,7 +34,12 @@ import ohma from "./assets/ohma.jpg";
 
 export default {
   data: () => ({
-    ohma
+    ohma,
+    tableData: [
+      { cake: "Chocolate", price: 10 },
+      { cake: "Cheese", price: 4 },
+      { cake: "Rat", price: 1 }
+    ]
   })
 };
 </script>
