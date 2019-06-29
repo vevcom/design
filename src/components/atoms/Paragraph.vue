@@ -4,6 +4,6 @@
 
 <style lang="scss" scoped>
 p {
-  line-height: 125%;
+  line-height: 1.5;
 }
 </style>
