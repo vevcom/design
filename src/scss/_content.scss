@@ -1,0 +1,16 @@
+// Devices
+
+$tablet-breakpoint: 768px; // Effective witdh of iPad
+$mobile-breakpoint: 414px; // Effective width of iPhone XS Max
+
+@mixin tablet {
+  @media only screen and (max-width: $tablet-breakpoint) {
+    @content;
+  }
+}
+
+@mixin mobile {
+  @media only screen and (max-width: $mobile-breakpoint) {
+    @content;
+  }
+}
