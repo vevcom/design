@@ -16,7 +16,7 @@ Start the local development server with
 ```bash
 $ npm run dev
 ```
-This will also open the demo page at [http://localhost:1234] in your browser. The webpage will update automatically as you make changes to the source code.
+This will also open the demo page in your browser. The webpage will update automatically as you make changes to the source code.
 
 The source for the actual design system is located in `src` while the demo that is shown in your browser (just a Vue app that uses the design system) is located in `demo`.
 
