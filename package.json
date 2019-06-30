@@ -7,9 +7,9 @@
     "doc": "docs"
   },
   "scripts": {
-    "dev": "parcel demo/index.html",
+    "dev": "parcel demo/index.html --open",
     "build": "parcel build demo/index.html --public-url ./ --no-source-maps",
-    "lint": "prettier --write \"{src,demo}/**/*.{vue,js}\"",
+    "styling": "prettier --write \"{src,demo}/**/*.{vue,js}\"",
     "test": "prettier --check \"{src,demo}/**/*.{vue,js}\""
   },
   "repository": {
